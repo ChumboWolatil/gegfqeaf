@@ -1,6 +1,6 @@
 import mysql.connector as mysqlconn
 from mysql.connector.errors import Error
-import comandos_sql as comsql
+
 
 try:
     connection = mysqlconn.connect(host='localhost',
