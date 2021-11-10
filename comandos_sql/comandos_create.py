@@ -29,7 +29,7 @@ create_turno_table = """CREATE TABLE turno(
 
 create_salao_table = """CREATE TABLE salao(
                         id INT NOT NULL AUTO_INCREMENT,
-                        salao VARCHAR(20));"""
+                        salao VARCHAR(30));"""
 
 create_condominio_table = """CREATE TABLE condominio(
                              id INT NOT NULL AUTO_INCREMENT,
@@ -53,3 +53,5 @@ create_moradores_table = """CREATE TABLE moradores(
                             telefone_fixo VARCHAR (13),
                             num_bloco INT,
                             num_apt INT);"""
+
+

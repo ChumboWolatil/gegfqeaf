@@ -1,0 +1,1 @@
+#ignora este arquivo professor ele é somente para uso co interpretador python
