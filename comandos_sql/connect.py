@@ -11,9 +11,6 @@ def connector():
             db_info = connection.get_server_info()
             print("Connected to MySQL Server version ", db_info)
             cursor = connection.cursor()
-            cursor.execute()
-            record = cursor.fetchone()
-            print("connected database -> ", record)
             return connection
 
     except Error as e:

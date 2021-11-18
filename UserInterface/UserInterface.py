@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel,QCheckBox, QPushButton, QListWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QListWidget
 import sys
 
 
@@ -11,25 +11,14 @@ class MyWindow(QMainWindow):
 
     def initUI(self):
         self.labels()
-        self.checkButtons()
         self.buttons()
         self.listMoradores()
 
     def labels(self):
-        self.condominioLabel = QLabel(self)
-        self.condominioLabel.setText('Condominios')
-        self.condominioLabel.setGeometry(0, 0, 91, 16)
         self.moradorLabel = QLabel(self)
         self.moradorLabel.setText('Moradores')
         self.moradorLabel.setGeometry(260, 0, 91, 16)
 
-    def checkButtons(self):
-        self.rosaCheck = QCheckBox(self)
-        self.rosaCheck.setText("Condominio Rosa Flores")
-        self.rosaCheck.setGeometry(0, 30, 200, 20)
-        self.homeCheck = QCheckBox(self)
-        self.homeCheck.setText('Condominio Home Beach')
-        self.homeCheck.setGeometry(0, 60, 200, 20)
 
     def buttons(self):
         self.adicionar = QPushButton(self)
@@ -44,7 +33,7 @@ class MyWindow(QMainWindow):
 
     def listMoradores(self):
         self.moradorList = QListWidget(self)
-        self.moradorList.setGeometry(260, 30, 240, 190)
+        self.moradorList.setGeometry(0, 30, 500, 260)
 
 def inicio():
     app = QApplication(sys.argv)
@@ -53,4 +42,4 @@ def inicio():
     sys.exit(app.exec_())
 
 
-inicio()
+

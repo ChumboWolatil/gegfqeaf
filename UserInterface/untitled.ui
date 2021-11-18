@@ -30,44 +30,26 @@
    <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>0</x>
       <y>20</y>
-      <width>256</width>
-      <height>192</height>
+      <width>421</width>
+      <height>391</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>30</y>
-      <width>151</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CheckBox</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>60</y>
-      <width>75</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CheckBox</string>
-    </property>
+    <item>
+     <property name="text">
+      <string>New Item</string>
+     </property>
+     <property name="checkState">
+      <enum>Unchecked</enum>
+     </property>
+    </item>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>110</y>
+      <y>310</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -80,7 +62,7 @@
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>190</y>
+      <y>390</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -93,26 +75,13 @@
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>150</y>
+      <y>350</y>
       <width>75</width>
       <height>24</height>
      </rect>
     </property>
     <property name="text">
      <string>Adicionar</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Condominios</string>
     </property>
    </widget>
   </widget>
